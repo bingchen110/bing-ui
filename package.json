@@ -1,7 +1,11 @@
 {
   "name": "bing-wui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.7",
+  "private": false,
+  "main": "dist/bing-wui.umd.min.js",
+  "author": {
+    "name": "bing"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

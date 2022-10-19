@@ -1,6 +1,6 @@
 @font-face {
-    font-family: w-icons;
-    src: url(./w-icons.woff) format("woff"), url(./w-icons.ttf) format("truetype");
+    font-family: "w-icon";
+    src: url('w-icon.woff') format("woff"), url('w-icon.ttf') format("truetype");
     font-weight: 400;
     font-display: "auto";
     font-style: normal
@@ -8,7 +8,7 @@
 
 [class*=" w-icon-"],
 [class^=w-icon-] {
-    font-family: w-icons !important;
+    font-family: "w-icon" !important;
     speak: none;
     font-style: normal;
     font-weight: 400;
